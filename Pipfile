@@ -10,6 +10,7 @@ build = "build"
 
 [packages]
 requests = "*"
+elasticsearch = "*"
 
 [requires]
 python_version = "3.8"
