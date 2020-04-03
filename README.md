@@ -1,7 +1,7 @@
 # pipenv-test
 
 - 目的 : pipenv を使用してパッケージ依存関係を管理し、Lambda にデプロイする方法を試す
-- 環境 : Windows 10
+- 環境 : Windows 10 / Python 3.8 / pip 19.2.3 / pipenv 2018.11.26
 
 ## 事前準備
 
