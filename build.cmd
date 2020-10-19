@@ -13,5 +13,4 @@ cd dist
 rmdir /s /q bin
 for /F %%d in ('dir /ad /b /w *dist-info') do rmdir /s /q %%d
 cd ..
-powershell Compress-Archive dist/* build.zip -Force
-echo "build complete."
+echo "please zip files in the dist dir."

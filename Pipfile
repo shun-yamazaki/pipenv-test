@@ -5,8 +5,16 @@ verify_ssl = true
 
 [scripts]
 build = "build"
+test = "pytest test1.py"
+test-cov = "py.test -v --cov-report=html --cov-branch --cov=src test1.py"
+exec = "python src/arg_jp.py aaa 'iii uuu'"
 
 [dev-packages]
+pytest = "*"
+moto = "*"
+pytest-mock = "*"
+boto3 = "*"
+pytest-cov = "*"
 
 [packages]
 requests = "*"
